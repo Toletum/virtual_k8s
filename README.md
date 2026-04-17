@@ -50,7 +50,7 @@ podman start $(podman ps -a -q --filter name=k8s-dev)
 podman stop $(podman ps -q --filter name=k8s-dev)
 ```
 
-## Destro cluster
+## Destroy cluster
 ```bash
 kind delete cluster --name k8s-dev
 ```
